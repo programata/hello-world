@@ -305,3 +305,4 @@ Exception: pytest discovery failed (exit code 2)
 2024-03-07 10:48:46.366 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2637
 2024-03-07 10:48:51.508 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2637
 2024-03-07 10:48:54.089 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2637
+2024-03-07 11:06:58.132 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'

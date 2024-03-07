@@ -1,0 +1,40 @@
+2024-03-07 11:06:58.448 [warning] /home/dataiku/.ssh/config: ENOENT: no such file or directory, open '/home/dataiku/.ssh/config'
+2024-03-07 11:06:58.481 [info] TemporaryState> Error in initialization: Unable to delete nonexistent file 'vscode-remote://dss-73f3fbf8-f7fd50bd-dku.eu-west-3.app.dataiku.io/home/dataiku/workspace/user-versioned/settings/code-server/User/globalStorage/github.vscode-pull-request-github/temp'
+2024-03-07 11:06:58.620 [info] Looking for git repository
+2024-03-07 11:06:58.620 [info] Found 0 repositories during activation
+2024-03-07 11:06:58.620 [info] Git repository found, initializing review manager and pr tree view.
+2024-03-07 11:06:58.623 [info] Registering git provider
+2024-03-07 11:06:58.623 [info] Review> Validate state in progress
+2024-03-07 11:06:58.623 [info] Review> Validating state...
+2024-03-07 11:06:58.623 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-03-07 11:06:58.623 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:06:58.675 [info] Repo state for file:///home/dataiku/workspace changed.
+2024-03-07 11:06:58.675 [info] Repo file:///home/dataiku/workspace has already been setup.
+2024-03-07 11:06:58.676 [info] Review> no matching pull request metadata found for current branch master
+2024-03-07 11:06:58.676 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2024-03-07 11:07:27.743 [error] Error signing in to GitHub: Error: User did not consent to login.
+2024-03-07 11:07:27.743 [error] Error: User did not consent to login.
+    at e.MainThreadAuthentication.m (https://dss-73f3fbf8-f7fd50bd-dku.eu-west-3.app.dataiku.io/code-studios/FIRSTANALYTICSTRACERBULLET/Dmg0Gxt/8080/stable-b3e4e68a0bc097f0ae7907b217c1119af9e03435/static/out/vs/workbench/workbench.web.main.js:1544:2574)
+    at async e.MainThreadAuthentication.$getSession (https://dss-73f3fbf8-f7fd50bd-dku.eu-west-3.app.dataiku.io/code-studios/FIRSTANALYTICSTRACERBULLET/Dmg0Gxt/8080/stable-b3e4e68a0bc097f0ae7907b217c1119af9e03435/static/out/vs/workbench/workbench.web.main.js:1544:3239)
+2024-03-07 11:08:09.363 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-03-07 11:08:09.363 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-03-07 11:08:09.363 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-03-07 11:08:09.364 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:08:09.364 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:08:09.364 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:08:09.364 [info] Review> Validate state in progress
+2024-03-07 11:08:09.364 [info] Review> Validating state...
+2024-03-07 11:08:09.364 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-03-07 11:08:09.364 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:08:09.412 [info] Review> no matching pull request metadata found for current branch master
+2024-03-07 11:08:09.413 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2024-03-07 11:10:02.026 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-03-07 11:10:02.026 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-03-07 11:10:02.026 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:10:02.027 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:10:02.027 [info] Review> Validate state in progress
+2024-03-07 11:10:02.027 [info] Review> Validating state...
+2024-03-07 11:10:02.028 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-03-07 11:10:02.028 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:10:02.089 [info] Review> no matching pull request metadata found for current branch master
+2024-03-07 11:10:02.089 [info] Review> No matching pull request metadata found on GitHub for current branch master

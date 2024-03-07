@@ -27,3 +27,16 @@
 2024-03-07 10:23:51.277 [info] [127.0.0.1][e65ff4d4][ExtensionHostConnection] The client has reconnected.
 2024-03-07 10:47:48.979 [info] [127.0.0.1][e65ff4d4][ExtensionHostConnection] The client has reconnected.
 2024-03-07 10:47:49.044 [info] [127.0.0.1][4fcec648][ManagementConnection] The client has reconnected.
+2024-03-07 10:54:34.443 [info] [127.0.0.1][4fcec648][ManagementConnection] The client has reconnected.
+2024-03-07 10:54:34.828 [info] [127.0.0.1][e65ff4d4][ExtensionHostConnection] The client has reconnected.
+2024-03-07 11:01:14.997 [info] [127.0.0.1][e65ff4d4][ExtensionHostConnection] The client has reconnected.
+2024-03-07 11:01:15.306 [info] [127.0.0.1][4fcec648][ManagementConnection] The client has reconnected.
+2024-03-07 11:01:27.002 [info] [127.0.0.1][e65ff4d4][ExtensionHostConnection] The client has reconnected.
+2024-03-07 11:01:27.002 [info] [127.0.0.1][4fcec648][ManagementConnection] The client has reconnected.
+2024-03-07 11:06:55.586 [info] Getting Manifest... github.vscode-pull-request-github
+2024-03-07 11:06:56.042 [info] Installing extension: github.vscode-pull-request-github
+2024-03-07 11:06:57.639 [info] Extension signature verification is not done: github.vscode-pull-request-github
+2024-03-07 11:06:57.731 [info] Extracted extension to /home/dataiku/workspace/code_studio-resources/vscode-extensions/.e37e9366-80ac-4d8f-a84a-d2b7afdd2483: github.vscode-pull-request-github
+2024-03-07 11:06:57.736 [info] Renamed to /home/dataiku/workspace/code_studio-resources/vscode-extensions/github.vscode-pull-request-github-0.64.0-universal
+2024-03-07 11:06:57.742 [info] Extracting extension completed. github.vscode-pull-request-github
+2024-03-07 11:06:57.747 [info] Extension installed successfully: github.vscode-pull-request-github
