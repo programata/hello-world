@@ -1,3 +1,4 @@
 **/logs
 user-versioned
 code_studio-resources/vscode-extensions
+**/metastore_db
