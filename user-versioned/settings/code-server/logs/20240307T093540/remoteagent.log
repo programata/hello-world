@@ -40,3 +40,8 @@
 2024-03-07 11:06:57.736 [info] Renamed to /home/dataiku/workspace/code_studio-resources/vscode-extensions/github.vscode-pull-request-github-0.64.0-universal
 2024-03-07 11:06:57.742 [info] Extracting extension completed. github.vscode-pull-request-github
 2024-03-07 11:06:57.747 [info] Extension installed successfully: github.vscode-pull-request-github
+2024-03-07 11:20:41.110 [info] [127.0.0.1][4fcec648][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-07 11:20:41.176 [info] [127.0.0.1][e65ff4d4][ExtensionHostConnection] <2299> Extension Host Process exited with code: 0, signal: null.
+2024-03-07 11:22:09.822 [info] [127.0.0.1][a3099dd4][ManagementConnection] New connection established.
+2024-03-07 11:22:10.730 [info] [127.0.0.1][08f68e9d][ExtensionHostConnection] New connection established.
+2024-03-07 11:22:10.785 [info] [127.0.0.1][08f68e9d][ExtensionHostConnection] <18821> Launched Extension Host Process.

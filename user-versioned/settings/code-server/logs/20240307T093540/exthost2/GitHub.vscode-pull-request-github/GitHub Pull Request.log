@@ -38,3 +38,47 @@
 2024-03-07 11:10:02.028 [info] No GitHub remotes found for folder /home/dataiku/workspace
 2024-03-07 11:10:02.089 [info] Review> no matching pull request metadata found for current branch master
 2024-03-07 11:10:02.089 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2024-03-07 11:10:28.894 [info] Review> Validate state in progress
+2024-03-07 11:10:28.894 [info] Review> Validating state...
+2024-03-07 11:10:28.898 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-03-07 11:10:28.898 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:10:28.939 [info] Review> no matching pull request metadata found for current branch master
+2024-03-07 11:10:28.940 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2024-03-07 11:11:16.402 [warning] No remotes found. The following remotes are missing: origin, upstream, https://github.com/programata
+2024-03-07 11:11:16.402 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:12:25.677 [info] Review> Validate state in progress
+2024-03-07 11:12:25.677 [info] Review> Validating state...
+2024-03-07 11:12:25.687 [warning] No remotes found. The following remotes are missing: origin, upstream, https://github.com/programata
+2024-03-07 11:12:25.687 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:12:25.733 [info] Review> no matching pull request metadata found for current branch master
+2024-03-07 11:12:25.734 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2024-03-07 11:15:06.092 [info] Review> Validate state in progress
+2024-03-07 11:15:06.092 [info] Review> Validating state...
+2024-03-07 11:15:06.100 [warning] No remotes found. The following remotes are missing: origin, upstream, https://github.com/programata
+2024-03-07 11:15:06.100 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:15:06.147 [info] Review> no matching pull request metadata found for current branch master
+2024-03-07 11:15:06.148 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2024-03-07 11:15:41.034 [info] Review> Validate state in progress
+2024-03-07 11:15:41.034 [info] Review> Validating state...
+2024-03-07 11:15:41.035 [warning] No remotes found. The following remotes are missing: origin, upstream, https://github.com/programata
+2024-03-07 11:15:41.035 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:15:41.117 [info] Review> no matching pull request metadata found for current branch master
+2024-03-07 11:15:41.118 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2024-03-07 11:16:42.796 [info] Review> Validate state in progress
+2024-03-07 11:16:42.796 [info] Review> Validating state...
+2024-03-07 11:16:42.797 [warning] No remotes found. The following remotes are missing: origin, upstream, https://github.com/programata
+2024-03-07 11:16:42.797 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:16:42.842 [info] Review> no matching pull request metadata found for current branch develop
+2024-03-07 11:16:42.843 [info] Review> No matching pull request metadata found on GitHub for current branch develop
+2024-03-07 11:18:20.822 [info] Review> Validate state in progress
+2024-03-07 11:18:20.822 [info] Review> Validating state...
+2024-03-07 11:18:20.831 [warning] No remotes found. The following remotes are missing: origin, upstream, https://github.com/programata
+2024-03-07 11:18:20.831 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:18:20.877 [info] Review> no matching pull request metadata found for current branch develop
+2024-03-07 11:18:20.877 [info] Review> No matching pull request metadata found on GitHub for current branch develop
+2024-03-07 11:19:59.426 [info] Review> Validate state in progress
+2024-03-07 11:19:59.426 [info] Review> Validating state...
+2024-03-07 11:19:59.434 [warning] No remotes found. The following remotes are missing: origin, upstream, https://github.com/programata
+2024-03-07 11:19:59.434 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:19:59.478 [info] Review> no matching pull request metadata found for current branch develop
+2024-03-07 11:19:59.478 [info] Review> No matching pull request metadata found on GitHub for current branch develop

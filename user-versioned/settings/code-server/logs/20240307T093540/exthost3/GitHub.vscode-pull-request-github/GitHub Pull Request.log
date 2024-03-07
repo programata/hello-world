@@ -1,0 +1,25 @@
+2024-03-07 11:22:13.802 [warning] /home/dataiku/.ssh/config: ENOENT: no such file or directory, open '/home/dataiku/.ssh/config'
+2024-03-07 11:22:15.498 [info] Looking for git repository
+2024-03-07 11:22:15.498 [info] Found 0 repositories during activation
+2024-03-07 11:22:15.498 [info] Git repository found, initializing review manager and pr tree view.
+2024-03-07 11:22:15.503 [info] Registering git provider
+2024-03-07 11:22:15.503 [info] Review> Validate state in progress
+2024-03-07 11:22:15.503 [info] Review> Validating state...
+2024-03-07 11:22:15.504 [warning] No remotes found. The following remotes are missing: origin, upstream, https://github.com/programata
+2024-03-07 11:22:15.504 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:22:15.583 [info] Repo state for file:///home/dataiku/workspace changed.
+2024-03-07 11:22:15.583 [info] Repo file:///home/dataiku/workspace has already been setup.
+2024-03-07 11:22:15.583 [info] Review> no matching pull request metadata found for current branch develop
+2024-03-07 11:22:15.584 [info] Review> No matching pull request metadata found on GitHub for current branch develop
+2024-03-07 11:23:09.443 [warning] No remotes found. The following remotes are missing: origin, upstream, https://github.com/programata
+2024-03-07 11:23:09.443 [warning] No remotes found. The following remotes are missing: origin, upstream, https://github.com/programata
+2024-03-07 11:23:09.443 [warning] No remotes found. The following remotes are missing: origin, upstream, https://github.com/programata
+2024-03-07 11:23:09.443 [info] Review> Validate state in progress
+2024-03-07 11:23:09.443 [info] Review> Validating state...
+2024-03-07 11:23:09.443 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:23:09.444 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:23:09.444 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:23:09.444 [warning] No remotes found. The following remotes are missing: origin, upstream, https://github.com/programata
+2024-03-07 11:23:09.444 [info] No GitHub remotes found for folder /home/dataiku/workspace
+2024-03-07 11:23:09.492 [info] Review> no matching pull request metadata found for current branch develop
+2024-03-07 11:23:09.492 [info] Review> No matching pull request metadata found on GitHub for current branch develop

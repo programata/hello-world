@@ -1,0 +1,35 @@
+2024-03-07 11:22:12.113 [info] Extension host with pid 18821 started
+2024-03-07 11:22:12.130 [info] Lock '/home/dataiku/workspace/user-versioned/settings/code-server/User/workspaceStorage/-760492f4/vscode.lock': Lock acquired.
+2024-03-07 11:22:12.204 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-03-07 11:22:12.779 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-07 11:22:12.824 [info] Eager extensions activated
+2024-03-07 11:22:12.824 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-07 11:22:12.825 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-07 11:22:12.825 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2024-03-07 11:22:12.825 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-03-07 11:22:13.029 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2024-03-07 11:22:13.983 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-03-07 11:22:13.983 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2024-03-07 11:22:13.983 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-07 11:22:14.854 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-03-07 11:22:15.041 [info] ExtensionService#_doActivateExtension LaurentTreguier.vscode-simple-icons, startup: false, activationEvent: '*'
+2024-03-07 11:22:24.039 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-07 11:22:24.039 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-07 11:22:25.664 [error] Error: Traceback (most recent call last):
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/run_adapter.py", line 17, in <module>
+    from testing_tools.adapter.__main__ import parse_args, main
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/adapter/__main__.py", line 9, in <module>
+    from . import pytest, report
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/adapter/pytest/__init__.py", line 7, in <module>
+    from ._discovery import discover
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+	at ChildProcess.<anonymous> (/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/out/client/extension.js:2:241129)
+	at Object.onceWrapper (node:events:628:26)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1100:16)
+	at Socket.<anonymous> (node:internal/child_process:458:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:301:12)

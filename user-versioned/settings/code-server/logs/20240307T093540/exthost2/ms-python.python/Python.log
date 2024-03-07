@@ -319,3 +319,81 @@ Exception: pytest discovery failed (exit code 2)
 2024-03-07 10:42:15.853 [info] DAP Server launched with command: /home/dataiku/template-python-code-envs/py38/bin/python /home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/lib/python/debugpy/adapter
 2024-03-07 10:42:16.344 [info] Send text to terminal: source /home/dataiku/template-python-code-envs/py38/bin/activate
 2024-03-07 10:42:17.359 [info] Send text to terminal:  /usr/bin/env /home/dataiku/template-python-code-envs/py38/bin/python /home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 43485 -- /home/dataiku/workspace/recipes/compute_analyticsbk_dataset.py run --params FECHADATO:10000000,PIB_TRANSFER_PATH_PREFIX:/tmp/,BITACORA_ENV:des,USER:pepe 
+2024-03-07 11:11:16.803 [info] > . ~/template-python-code-envs/py38/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/printEnvVariables.py
+2024-03-07 11:11:16.804 [info] shell: bash
+2024-03-07 11:11:16.848 [info] > ~/template-python-code-envs/py38/bin/python ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir . -s --cache-clear project-lib-versioned
+2024-03-07 11:11:16.848 [info] cwd: .
+2024-03-07 11:11:21.386 [error] Error discovering pytest tests:
+ [n [Error]: ============================= test session starts ==============================
+platform linux -- Python 3.8.17, pytest-7.4.4, pluggy-0.13.1
+rootdir: /home/dataiku/workspace
+plugins: hypothesis-6.98.17
+
+
+                          _           _     _                ____    _  __
+                         | |         | |   (_)              |  _ \  | |/ /
+   __ _   _ __     __ _  | |  _   _  | |_   _    ___   ___  | |_) | | ' / 
+  / _` | | '_ \   / _` | | | | | | | | __| | |  / __| / __| |  _ <  |  <  
+ | (_| | | | | | | (_| | | | | |_| | | |_  | | | (__  \__ \ | |_) | | . \ 
+  \__,_| |_| |_|  \__,_| |_|  \__, |  \__| |_|  \___| |___/ |____/  |_|\_\
+                               __/ |                                      
+                              |___/                                       
+
+                            ~Versión: 3.0.0 (ML)~                     
+
+GIT commit id: NA.
+collected 5 items / 1 error
+
+<Package data_engineering>
+  <Module test_data_engineering.py>
+    <Function test_preparation_pipeline>
+    <Function test_build_powerful_features_node>
+<Package inference>
+  <Module test_inference.py>
+    <Function test_model_basic_validation>
+    <Function test_bright_invariance_validation>
+<Package integration>
+  <Module test_integration.py>
+    <Function test_default_pipeline>
+
+==================================== ERRORS ====================================
+_ ERROR collecting project-lib-versioned/python/test_project/src/tests/pipelines/data_science/test_data_science.py _
+ImportError while importing test module '/home/dataiku/workspace/project-lib-versioned/python/test_project/src/tests/pipelines/data_science/test_data_science.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib64/python3.8/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+project-lib-versioned/python/test_project/src/tests/pipelines/data_science/test_data_science.py:9: in <module>
+    import tensorflow.python.keras.models
+E   ModuleNotFoundError: No module named 'tensorflow'
+=============================== warnings summary ===============================
+../template-python-code-envs/py38/lib/python3.8/site-packages/fsspec/spec.py:92
+  /home/dataiku/template-python-code-envs/py38/lib/python3.8/site-packages/fsspec/spec.py:92: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+    if pa_version and LooseVersion(pa_version) < LooseVersion("2.0"):
+
+../template-python-code-envs/py38/lib/python3.8/site-packages/great_expectations/marshmallow__shade/__init__.py:24
+  /home/dataiku/template-python-code-envs/py38/lib/python3.8/site-packages/great_expectations/marshmallow__shade/__init__.py:24: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+    __version_info__ = tuple(LooseVersion(__version__).version)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+ERROR project-lib-versioned/python/test_project/src/tests/pipelines/data_science/test_data_science.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+===================== 5 tests collected, 1 error in 3.67s ======================
+
+Traceback (most recent call last):
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/run_adapter.py", line 22, in <module>
+    main(tool, cmd, subargs, toolargs)
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/adapter/__main__.py", line 99, in main
+    parents, result = run(toolargs, **subargs)
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 47, in discover
+    raise Exception("pytest discovery failed (exit code {})".format(ec))
+Exception: pytest discovery failed (exit code 2)
+
+	at ChildProcess.<anonymous> (/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/out/client/extension.js:2:241129)
+	at Object.onceWrapper (node:events:628:26)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1100:16)
+	at Socket.<anonymous> (node:internal/child_process:458:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:301:12)]

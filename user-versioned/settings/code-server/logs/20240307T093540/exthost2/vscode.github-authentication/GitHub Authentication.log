@@ -46,3 +46,7 @@
 2024-03-07 11:10:01.866 [info] Login success!
 2024-03-07 11:10:01.970 [info] Got stored sessions!
 2024-03-07 11:10:01.970 [info] Got 1 verified sessions.
+2024-03-07 11:20:41.150 [error] Canceled
+2024-03-07 11:20:41.150 [error] Error: No auth flow succeeded.
+	at t.GitHubServer.login (/opt/dataiku/code-server/lib/vscode/extensions/github-authentication/dist/extension.js:2:594177)
+	at async t.GitHubAuthenticationProvider.createSession (/opt/dataiku/code-server/lib/vscode/extensions/github-authentication/dist/extension.js:2:590279)

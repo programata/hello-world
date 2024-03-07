@@ -20,3 +20,6 @@ info 10:39:46.891: Ending debug session 1dfdea00-1b98-4fcb-8e38-7d25e8fdce55
 info 10:39:46.891: Ending debug session 1dfdea00-1b98-4fcb-8e38-7d25e8fdce55
 info 10:43:10.671: Ending debug session 69b28d17-22ed-4491-8c42-8a6443256078
 info 10:43:10.671: Ending debug session 69b28d17-22ed-4491-8c42-8a6443256078
+info 11:20:41.139: Shutting down notebooks for e0d2fbbf-e2ef-4ba8-81df-4c7a3cfbc144
+info 11:20:41.139: Disposing HostJupyterExecution e5ee594d-4a28-46a0-8d41-52a62a63e6bf
+info 11:20:41.139: Disposing HostJupyterExecution e5ee594d-4a28-46a0-8d41-52a62a63e6bf
