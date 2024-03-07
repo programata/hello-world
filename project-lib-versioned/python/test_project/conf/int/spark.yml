@@ -1,0 +1,10 @@
+#
+# Incluir en este fichero los parámetros Spark que deban especializarse para la
+# ejecución en el entorno de integración con respecto al base.
+#
+spark.yarn.appMasterEnv.PYSPARK_PYTHON: ./BASE_ENV/mini/bin/python
+spark.yarn.dist.archives: /home/bdausr/.conda/envs/mini.zip#BASE_ENV
+spark.driver.bindAddress: 0.0.0.0
+
+# Este valor será sobre escrito por el FW de ejecución
+spark.driver.host: dastgint01.bdaint.bk

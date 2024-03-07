@@ -1,0 +1,16 @@
+#
+# Incluir las metavariables que deban modificar su valor con respecto al entorno base
+# para la ejecución en produccion.
+# Para el caso de las metavariables indicadas hay que recordar que el FW de ejecución control-M
+# puede sobreescribir su valor con los correctos para cada caso de uso, si bien es cierto que en la
+# gran mayoría de casos coincidirán con los establecidos en este fichero
+#
+WORK_DATABASE: 'ml_test_project'
+WORK_USER: 'bdausr'
+ENV_NAME: 'pro'
+PROJECT_NAME: 'test_project'
+MACHINE_NAME: 'prod'
+
+CRYPTO_PASSWORD: '5zHxOzI6YWN/etgox03gsA=='
+
+IMPALA_SERVER: 'hive://dastgpro02.bdapro.bk:21050'

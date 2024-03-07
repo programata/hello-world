@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Kedro run",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/test/test_project/src/test_project/run.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "cwd": "${workspaceFolder}/src/test/test_project",
+            "args": [
+                "run",
+                "--params",
+                "FECHADATO=10000000,PIB_TRANSFER_PATH_PREFIX=/tmp/,BITACORA_ENV=des,USER=pepe"
+            ],
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src/test/test_project/src:${workspaceFolder}/src:${env:PYTHONPATH}"
+            }
+        }
+    ]
+}

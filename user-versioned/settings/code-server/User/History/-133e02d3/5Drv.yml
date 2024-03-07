@@ -1,0 +1,28 @@
+#
+# Parámetros de la sesión Spark. Añadir o modificar conforme sea necesario.
+#
+spark.enabled: true
+spark.driver.maxResultSize: 1G
+spark.sql.execution.arrow.enabled: false
+spark.sql.execution.arrow.fallback.enabled: true
+spark.driver.memory: 2G
+spark.driver.cores: 2
+spark.executor.memory: 2G
+spark.executor.memoryOverhead: 2G
+spark.executor.instances: 1
+spark.executor.cores: 2
+spark.executorEnv.PYTHONHASHSEED: 0
+spark.dynamicAllocation.enabled: true
+spark.dynamicAllocation.maxExecutors: 64
+spark.sql.shuffle.partitions: 512
+spark.yarn.queue: root.DataScience.BancaDigital
+spark.yarn.appMasterEnv.PYSPARK_PYTHON: ./BASE_ENV/mini/bin/python
+spark.yarn.dist.archives: /home/cdsw/.conda/envs/mini.zip#BASE_ENV
+spark.jars: /opt/oracle/bigdatasql/bdcell-12.1/jlib/ojdbc7.jar
+spark.pyarrow.libhdfs.dir: /opt/cloudera/parcels/CDH-6.3.4-1.cdh6.3.4.p5015.18020897/lib64/
+
+# Distribuir a los ejecutores el fichero de configuración log4j
+spark.yarn.dist.files: conf/base/log4j_dist.properties
+# Incluir el parámetro log4j de fichero de conf. a usar en el arranque de los ejecutores
+spark.executor.extraJavaOptions: -Dlog4j.configuration="log4j_dist.properties" -Dlog4j.debug=true
+spark.sql.caseSensitive: false

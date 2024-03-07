@@ -1,0 +1,27 @@
+2024-03-07 09:35:40.830 [info] 
+
+
+
+
+2024-03-07 09:35:40.860 [info] Extension host agent started.
+2024-03-07 09:35:42.009 [info] [127.0.0.1][0ecedb72][ManagementConnection] New connection established.
+2024-03-07 09:35:42.500 [warning] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+2024-03-07 09:35:42.792 [info] [127.0.0.1][7958d24b][ExtensionHostConnection] New connection established.
+2024-03-07 09:35:42.805 [info] [127.0.0.1][7958d24b][ExtensionHostConnection] <177> Launched Extension Host Process.
+2024-03-07 09:46:44.807 [info] [127.0.0.1][0ecedb72][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-07 09:46:44.849 [info] [127.0.0.1][7958d24b][ExtensionHostConnection] <177> Extension Host Process exited with code: 0, signal: null.
+2024-03-07 09:46:44.924 [info] [127.0.0.1][4fcec648][ManagementConnection] New connection established.
+2024-03-07 09:46:45.557 [info] [127.0.0.1][e65ff4d4][ExtensionHostConnection] New connection established.
+2024-03-07 09:46:45.565 [info] [127.0.0.1][e65ff4d4][ExtensionHostConnection] <2299> Launched Extension Host Process.
+2024-03-07 09:54:11.445 [info] [127.0.0.1][e65ff4d4][ExtensionHostConnection] The client has reconnected.
+2024-03-07 09:54:11.446 [info] [127.0.0.1][4fcec648][ManagementConnection] The client has reconnected.
+2024-03-07 09:58:57.384 [info] [127.0.0.1][4fcec648][ManagementConnection] The client has reconnected.
+2024-03-07 09:58:58.299 [info] [127.0.0.1][e65ff4d4][ExtensionHostConnection] The client has reconnected.
+2024-03-07 10:07:03.954 [info] [127.0.0.1][4fcec648][ManagementConnection] The client has reconnected.
+2024-03-07 10:07:03.954 [info] [127.0.0.1][e65ff4d4][ExtensionHostConnection] The client has reconnected.
+2024-03-07 10:12:41.168 [info] [127.0.0.1][4fcec648][ManagementConnection] The client has reconnected.
+2024-03-07 10:12:41.596 [info] [127.0.0.1][e65ff4d4][ExtensionHostConnection] The client has reconnected.
+2024-03-07 10:17:44.734 [info] [127.0.0.1][4fcec648][ManagementConnection] The client has reconnected.
+2024-03-07 10:17:45.290 [info] [127.0.0.1][e65ff4d4][ExtensionHostConnection] The client has reconnected.
+2024-03-07 10:23:51.262 [info] [127.0.0.1][4fcec648][ManagementConnection] The client has reconnected.
+2024-03-07 10:23:51.277 [info] [127.0.0.1][e65ff4d4][ExtensionHostConnection] The client has reconnected.

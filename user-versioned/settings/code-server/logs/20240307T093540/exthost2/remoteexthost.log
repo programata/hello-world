@@ -1,0 +1,253 @@
+2024-03-07 09:46:46.210 [info] Extension host with pid 2299 started
+2024-03-07 09:46:46.286 [info] Lock '/home/dataiku/workspace/user-versioned/settings/code-server/User/workspaceStorage/-760492f4/vscode.lock': Lock acquired.
+2024-03-07 09:46:46.383 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-07 09:46:46.384 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-03-07 09:46:46.385 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2024-03-07 09:46:47.623 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2024-03-07 09:46:47.646 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-07 09:46:47.646 [info] ExtensionService#_doActivateExtension LaurentTreguier.vscode-simple-icons, startup: true, activationEvent: '*'
+2024-03-07 09:46:47.737 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-07 09:46:47.737 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-07 09:46:47.968 [info] Eager extensions activated
+2024-03-07 09:46:47.968 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-07 09:46:47.969 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-07 09:46:47.969 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-03-07 09:47:06.190 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2024-03-07 09:47:06.406 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2024-03-07 09:47:06.406 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2024-03-07 09:47:26.763 [error] Canceled: Canceled
+	at Bb.selectLocalKernel (/home/dataiku/.local/share/code-server/local-extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:24:213830)
+	at async Jb.onSelectLocalKernel (/home/dataiku/.local/share/code-server/local-extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:24:222791)
+	at async e.ExtHostCommands.h (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:125307) jupyter.kernel.selectLocalPythonEnvironment {"value":"ms-toolsai.jupyter","c":"ms-toolsai.jupyter"}
+2024-03-07 09:47:27.764 [error] {}
+2024-03-07 09:48:55.884 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-03-07 09:51:20.238 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-07 09:51:20.239 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-07 09:51:26.988 [error] Error: ============================= test session starts ==============================
+platform linux -- Python 3.8.17, pytest-7.4.4, pluggy-0.13.1
+rootdir: /home/dataiku/workspace
+plugins: hypothesis-6.98.17
+
+
+                          _           _     _                ____    _  __
+                         | |         | |   (_)              |  _ \  | |/ /
+   __ _   _ __     __ _  | |  _   _  | |_   _    ___   ___  | |_) | | ' / 
+  / _` | | '_ \   / _` | | | | | | | | __| | |  / __| / __| |  _ <  |  <  
+ | (_| | | | | | | (_| | | | | |_| | | |_  | | | (__  \__ \ | |_) | | . \ 
+  \__,_| |_| |_|  \__,_| |_|  \__, |  \__| |_|  \___| |___/ |____/  |_|\_\
+                               __/ |                                      
+                              |___/                                       
+
+                            ~Versión: 3.0.0 (ML)~                     
+
+GIT commit id: NA.
+collected 5 items / 1 error
+
+<Package data_engineering>
+  <Module test_data_engineering.py>
+    <Function test_preparation_pipeline>
+    <Function test_build_powerful_features_node>
+<Package inference>
+  <Module test_inference.py>
+    <Function test_model_basic_validation>
+    <Function test_bright_invariance_validation>
+<Package integration>
+  <Module test_integration.py>
+    <Function test_default_pipeline>
+
+==================================== ERRORS ====================================
+_ ERROR collecting project-lib-versioned/python/test_project/src/tests/pipelines/data_science/test_data_science.py _
+ImportError while importing test module '/home/dataiku/workspace/project-lib-versioned/python/test_project/src/tests/pipelines/data_science/test_data_science.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib64/python3.8/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+project-lib-versioned/python/test_project/src/tests/pipelines/data_science/test_data_science.py:9: in <module>
+    import tensorflow.python.keras.models
+E   ModuleNotFoundError: No module named 'tensorflow'
+=============================== warnings summary ===============================
+../template-python-code-envs/py38/lib/python3.8/site-packages/fsspec/spec.py:92
+  /home/dataiku/template-python-code-envs/py38/lib/python3.8/site-packages/fsspec/spec.py:92: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+    if pa_version and LooseVersion(pa_version) < LooseVersion("2.0"):
+
+../template-python-code-envs/py38/lib/python3.8/site-packages/great_expectations/marshmallow__shade/__init__.py:24
+  /home/dataiku/template-python-code-envs/py38/lib/python3.8/site-packages/great_expectations/marshmallow__shade/__init__.py:24: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+    __version_info__ = tuple(LooseVersion(__version__).version)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+ERROR project-lib-versioned/python/test_project/src/tests/pipelines/data_science/test_data_science.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+===================== 5 tests collected, 1 error in 3.70s ======================
+
+Traceback (most recent call last):
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/run_adapter.py", line 22, in <module>
+    main(tool, cmd, subargs, toolargs)
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/adapter/__main__.py", line 99, in main
+    parents, result = run(toolargs, **subargs)
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 47, in discover
+    raise Exception("pytest discovery failed (exit code {})".format(ec))
+Exception: pytest discovery failed (exit code 2)
+
+	at ChildProcess.<anonymous> (/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/out/client/extension.js:2:241129)
+	at Object.onceWrapper (node:events:628:26)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1100:16)
+	at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2024-03-07 09:52:45.215 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugInitialConfigurations'
+2024-03-07 10:05:41.254 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-03-07 10:05:41.254 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-03-07 10:05:57.716 [error] Error: ============================= test session starts ==============================
+platform linux -- Python 3.8.17, pytest-7.4.4, pluggy-0.13.1
+rootdir: /home/dataiku/workspace
+plugins: hypothesis-6.98.17
+
+
+                          _           _     _                ____    _  __
+                         | |         | |   (_)              |  _ \  | |/ /
+   __ _   _ __     __ _  | |  _   _  | |_   _    ___   ___  | |_) | | ' / 
+  / _` | | '_ \   / _` | | | | | | | | __| | |  / __| / __| |  _ <  |  <  
+ | (_| | | | | | | (_| | | | | |_| | | |_  | | | (__  \__ \ | |_) | | . \ 
+  \__,_| |_| |_|  \__,_| |_|  \__, |  \__| |_|  \___| |___/ |____/  |_|\_\
+                               __/ |                                      
+                              |___/                                       
+
+                            ~Versión: 3.0.0 (ML)~                     
+
+GIT commit id: NA.
+collected 5 items / 1 error
+
+<Package data_engineering>
+  <Module test_data_engineering.py>
+    <Function test_preparation_pipeline>
+    <Function test_build_powerful_features_node>
+<Package inference>
+  <Module test_inference.py>
+    <Function test_model_basic_validation>
+    <Function test_bright_invariance_validation>
+<Package integration>
+  <Module test_integration.py>
+    <Function test_default_pipeline>
+
+==================================== ERRORS ====================================
+_ ERROR collecting project-lib-versioned/python/test_project/src/tests/pipelines/data_science/test_data_science.py _
+ImportError while importing test module '/home/dataiku/workspace/project-lib-versioned/python/test_project/src/tests/pipelines/data_science/test_data_science.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib64/python3.8/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+project-lib-versioned/python/test_project/src/tests/pipelines/data_science/test_data_science.py:9: in <module>
+    import tensorflow.python.keras.models
+E   ModuleNotFoundError: No module named 'tensorflow'
+=============================== warnings summary ===============================
+../template-python-code-envs/py38/lib/python3.8/site-packages/fsspec/spec.py:92
+  /home/dataiku/template-python-code-envs/py38/lib/python3.8/site-packages/fsspec/spec.py:92: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+    if pa_version and LooseVersion(pa_version) < LooseVersion("2.0"):
+
+../template-python-code-envs/py38/lib/python3.8/site-packages/great_expectations/marshmallow__shade/__init__.py:24
+  /home/dataiku/template-python-code-envs/py38/lib/python3.8/site-packages/great_expectations/marshmallow__shade/__init__.py:24: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+    __version_info__ = tuple(LooseVersion(__version__).version)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+ERROR project-lib-versioned/python/test_project/src/tests/pipelines/data_science/test_data_science.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+===================== 5 tests collected, 1 error in 3.68s ======================
+
+Traceback (most recent call last):
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/run_adapter.py", line 22, in <module>
+    main(tool, cmd, subargs, toolargs)
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/adapter/__main__.py", line 99, in main
+    parents, result = run(toolargs, **subargs)
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 47, in discover
+    raise Exception("pytest discovery failed (exit code {})".format(ec))
+Exception: pytest discovery failed (exit code 2)
+
+	at ChildProcess.<anonymous> (/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/out/client/extension.js:2:241129)
+	at Object.onceWrapper (node:events:628:26)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1100:16)
+	at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2024-03-07 10:10:34.492 [error] Error: ============================= test session starts ==============================
+platform linux -- Python 3.8.17, pytest-7.4.4, pluggy-0.13.1
+rootdir: /home/dataiku/workspace
+plugins: hypothesis-6.98.17
+
+
+                          _           _     _                ____    _  __
+                         | |         | |   (_)              |  _ \  | |/ /
+   __ _   _ __     __ _  | |  _   _  | |_   _    ___   ___  | |_) | | ' / 
+  / _` | | '_ \   / _` | | | | | | | | __| | |  / __| / __| |  _ <  |  <  
+ | (_| | | | | | | (_| | | | | |_| | | |_  | | | (__  \__ \ | |_) | | . \ 
+  \__,_| |_| |_|  \__,_| |_|  \__, |  \__| |_|  \___| |___/ |____/  |_|\_\
+                               __/ |                                      
+                              |___/                                       
+
+                            ~Versión: 3.0.0 (ML)~                     
+
+GIT commit id: NA.
+collected 5 items / 1 error
+
+<Package data_engineering>
+  <Module test_data_engineering.py>
+    <Function test_preparation_pipeline>
+    <Function test_build_powerful_features_node>
+<Package inference>
+  <Module test_inference.py>
+    <Function test_model_basic_validation>
+    <Function test_bright_invariance_validation>
+<Package integration>
+  <Module test_integration.py>
+    <Function test_default_pipeline>
+
+==================================== ERRORS ====================================
+_ ERROR collecting project-lib-versioned/python/test_project/src/tests/pipelines/data_science/test_data_science.py _
+ImportError while importing test module '/home/dataiku/workspace/project-lib-versioned/python/test_project/src/tests/pipelines/data_science/test_data_science.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib64/python3.8/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+project-lib-versioned/python/test_project/src/tests/pipelines/data_science/test_data_science.py:9: in <module>
+    import tensorflow.python.keras.models
+E   ModuleNotFoundError: No module named 'tensorflow'
+=============================== warnings summary ===============================
+../template-python-code-envs/py38/lib/python3.8/site-packages/fsspec/spec.py:92
+  /home/dataiku/template-python-code-envs/py38/lib/python3.8/site-packages/fsspec/spec.py:92: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+    if pa_version and LooseVersion(pa_version) < LooseVersion("2.0"):
+
+../template-python-code-envs/py38/lib/python3.8/site-packages/great_expectations/marshmallow__shade/__init__.py:24
+  /home/dataiku/template-python-code-envs/py38/lib/python3.8/site-packages/great_expectations/marshmallow__shade/__init__.py:24: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+    __version_info__ = tuple(LooseVersion(__version__).version)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+ERROR project-lib-versioned/python/test_project/src/tests/pipelines/data_science/test_data_science.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+===================== 5 tests collected, 1 error in 3.73s ======================
+
+Traceback (most recent call last):
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/run_adapter.py", line 22, in <module>
+    main(tool, cmd, subargs, toolargs)
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/adapter/__main__.py", line 99, in main
+    parents, result = run(toolargs, **subargs)
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 47, in discover
+    raise Exception("pytest discovery failed (exit code {})".format(ec))
+Exception: pytest discovery failed (exit code 2)
+
+	at ChildProcess.<anonymous> (/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/out/client/extension.js:2:241129)
+	at Object.onceWrapper (node:events:628:26)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1100:16)
+	at Socket.<anonymous> (node:internal/child_process:458:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:301:12)
+2024-03-07 10:41:18.249 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-03-07 10:43:57.946 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2637
+2024-03-07 10:43:58.325 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2637
+2024-03-07 10:44:02.443 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2637
+2024-03-07 10:44:07.513 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2637
+2024-03-07 10:44:12.588 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2637
+2024-03-07 10:44:17.650 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2637
+2024-03-07 10:44:22.715 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2637
+2024-03-07 10:44:27.779 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2637
+2024-03-07 10:44:32.909 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2637

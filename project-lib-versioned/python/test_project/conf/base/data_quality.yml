@@ -1,0 +1,11 @@
+partitioned_store_predictions:
+  execute: 'save'
+  columns:
+    # Probabilidad de que el dígito MNIST leido sea un cero
+    PassengerId:
+      expectations:
+        expect_column_values_to_not_be_null: {}
+        expect_column_values_to_be_between:
+          min_value: 0
+          max_value: 9999999
+          stop_on_error: True

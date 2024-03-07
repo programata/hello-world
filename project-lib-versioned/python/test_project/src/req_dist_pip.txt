@@ -1,0 +1,2 @@
+# Dependencias Distribuidas PyPi
+pyarrow==0.15.0

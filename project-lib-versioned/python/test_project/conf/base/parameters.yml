@@ -1,0 +1,35 @@
+# Parameters for the example pipeline. Feel free to delete these once you
+# remove the example pipeline from pipeline.pyt and the example nodes in
+# `src/pipelines/`
+example_test_data_ratio: 0.1
+example_num_train_iter: 10000
+example_learning_rate: 0.01
+test_date_param: 0.0
+
+# Parámetro con parte expresion y parte ejecucion
+test_dynamic_param_with_expression_and_execution$: {
+  exec: 'from analyticsbk.framework.globals import ExtraParamsSingleton; from datetime import date',
+  eval: 'ExtraParamsSingleton().get_fechadato()'
+}
+
+# Solo expresión
+test_dynamic_date_param_eval_today$: date.today()
+
+# Solo expresión en sintaxis diccionario
+test_dynamic_date_param_eval_only_today$: {
+  eval: date.today()
+}
+
+# Parámetros de entrenamiento del modelo CNN del esqueleto de proyecto.
+batch_size: 128
+epochs: 10
+verbose: 1
+num_gpus: 0
+
+dataquality_server:
+  dsn: 'exa1arqdes.bankinter.bk/SRVarqpre'
+  user: '${DQ_SCHEMA}'
+  password: '${CRYPTO_PASSWORD}'
+  label: '${DQ_LABEL}'
+
+impala_server: '${IMPALA_SERVER}'

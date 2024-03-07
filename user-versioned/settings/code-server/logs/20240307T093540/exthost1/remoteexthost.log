@@ -1,0 +1,20 @@
+2024-03-07 09:35:43.438 [info] Extension host with pid 177 started
+2024-03-07 09:35:43.491 [info] Lock '/home/dataiku/workspace/user-versioned/settings/code-server/User/workspaceStorage/-760492f4/vscode.lock': Lock acquired.
+2024-03-07 09:35:43.605 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-07 09:35:43.606 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-03-07 09:35:43.606 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2024-03-07 09:35:44.935 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2024-03-07 09:35:44.958 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-07 09:35:44.959 [info] ExtensionService#_doActivateExtension LaurentTreguier.vscode-simple-icons, startup: true, activationEvent: '*'
+2024-03-07 09:35:45.085 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-07 09:35:45.085 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-07 09:35:45.354 [info] Eager extensions activated
+2024-03-07 09:35:45.354 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-07 09:35:45.355 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-07 09:35:45.375 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-03-07 09:39:23.253 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-07 09:39:23.253 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-07 09:39:35.393 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-03-07 09:46:44.805 [info] Extension host terminating: received terminate message from renderer
+2024-03-07 09:46:44.806 [info] Lock '/home/dataiku/workspace/user-versioned/settings/code-server/User/workspaceStorage/-760492f4/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-03-07 09:46:44.838 [info] Extension host with pid 177 exiting with code 0

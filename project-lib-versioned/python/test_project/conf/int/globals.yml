@@ -1,0 +1,10 @@
+#
+# Incluir las metavariables que deban modificar su valor con respecto al entorno base
+# para la ejecución en integración.
+#
+PROJECT_NAME: 'test_project'
+MACHINE_NAME: 'int'
+WORK_DATABASE: 'ml_test_project'
+WORK_USER: 'bdausr'
+ENV_NAME: 'des'
+DQ_PASSWORD: 'arq_metadato'

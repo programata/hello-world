@@ -1,0 +1,58 @@
+#
+#
+#
+
+# CSV en local
+example_iris_data:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/iris.csv
+
+
+titanic_train_data:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/titanic_train.csv
+
+
+titanic_validation_data:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/titanic_test.csv
+
+
+predictions_example:
+  type: analyticsbk.framework.io.OutputLayerDataSet
+  url: 'jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=NO)(FAILOVER=ON)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=exaorabiint.bankinter.bk)(PORT = 1521)))(CONNECT_DATA=(SERVICE_NAME = dwhbk)(SERVER = DEDICATED)))'
+  table: t_mnist_predictions
+  fechadato: 'daily'
+  mode: 'append'
+  credentials: {
+    'user': '${WORK_USER}',
+    'password': '${WORK_DATABASE}'
+  }
+
+file_store_predictions:
+  type: analyticsbk.framework.io.CSVOutputPIBDataSet
+  jobz: 'PCDY070'
+  tabla_pib: 'BKCLIE_CLTABLAS'
+  fecha_tabla: '20200101'
+  fmt: '%10d %30s %2d'
+
+
+partitioned_store_predictions:
+  type: analyticsbk.framework.io.PartitionedHiveSparkDataSet
+  database: '${WORK_DATABASE}'
+  table: 'partitioned_store_predictions'
+
+trained_model:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/random_forest_model.pkl
+  backend: pickle
+
+predictions:
+  type: pandas.CSVDataSet
+  filepath: data/07_model_output/titanic_predictions.csv
+
+test_simple_spark_dataquality_save:
+  type: analyticsbk.framework.io.PartitionedHiveSparkDataSet
+  database: 'sb_arq'
+  table: 'test_simple_spark_dataquality_save'
+  fechadato: '00000000'

@@ -1,0 +1,21 @@
+#
+#
+# Metavariables compartidas referenciables en el resto de ficheros de configuración
+# mediante la sintaxis ${NOMBRE_METAVAR}, por ejemplo ${db_user}, sin embargo en este
+# fichero no está permitido usar la sintaxis ${...}
+#
+FECHADATO: '00000000'
+PROJECT_NAME: 'analyticsBK'
+MACHINE_NAME: 'CDSW'
+BITACORA_ENV: 'des'
+WORK_DATABASE: 'sb_arq'
+WORK_USER: 'pepe'
+PIB_TRANSFER_PATH_PREFIX: '/tmp/staging'
+DQ_SCHEMA: 'ARQ_METADATO'
+DQ_PASSWORD: 'arq_metadato'
+DQ_LABEL: 'v0.0.0d'
+
+CRYPTO_PASSWORD: 'O855nbscezls9z1W5Yfa9w=='
+
+# URL del servidor hive del impala de analítico
+IMPALA_SERVER: 'hive://bda3node04.bdamod.bk:21050'

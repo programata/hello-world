@@ -1,0 +1,22 @@
+code-server (1.78.2, dss-73f3fbf8-f7fd50bd-dku.eu-west-3.app.dataiku.io, server-distro)
+Jupyter Extension Version: 2023.3.100.
+Python Extension Version: 2023.8.0.
+Workspace folder /home/dataiku/workspace
+info 09:46:47.260: ZMQ loaded via fallback mechanism.
+info 09:46:47.626: LSP Notebooks experiment is enabled
+info 09:46:49.016: Process Execution: > ~/template-python-code-envs/py38/bin/python -m pip list
+> ~/template-python-code-envs/py38/bin/python -m pip list
+info 09:54:33.416: Ending debug session 8ece45ed-6a87-436d-91c6-7cc39b4b0ef5
+info 09:54:33.416: Ending debug session 8ece45ed-6a87-436d-91c6-7cc39b4b0ef5
+info 10:06:50.070: Ending debug session 875de85f-9879-4b63-add5-de92c5b20c3a
+info 10:06:50.070: Ending debug session 875de85f-9879-4b63-add5-de92c5b20c3a
+info 10:07:37.840: Ending debug session 94fdbe91-8985-4c96-a8d0-4dceb9a808a1
+info 10:07:37.840: Ending debug session 94fdbe91-8985-4c96-a8d0-4dceb9a808a1
+info 10:09:03.878: Ending debug session 60f9bca0-78d5-4a09-b2eb-dad441fa0f69
+info 10:09:03.879: Ending debug session 60f9bca0-78d5-4a09-b2eb-dad441fa0f69
+info 10:10:14.949: Ending debug session 5c733bc5-138e-493f-980c-405a7102d20c
+info 10:10:14.949: Ending debug session 5c733bc5-138e-493f-980c-405a7102d20c
+info 10:39:46.891: Ending debug session 1dfdea00-1b98-4fcb-8e38-7d25e8fdce55
+info 10:39:46.891: Ending debug session 1dfdea00-1b98-4fcb-8e38-7d25e8fdce55
+info 10:43:10.671: Ending debug session 69b28d17-22ed-4491-8c42-8a6443256078
+info 10:43:10.671: Ending debug session 69b28d17-22ed-4491-8c42-8a6443256078

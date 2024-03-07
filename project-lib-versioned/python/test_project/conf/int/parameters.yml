@@ -1,0 +1,9 @@
+#
+# Incluir en este fichero los parámetros del modelo cuyos valores deban adaptarse
+# para la ejecución en el entorno de integración con respecto al base, si hay alguno.
+#
+dataquality_server:
+  dsn: 'exa1arqdes.bankinter.bk/SRVarq'
+  user: '${DQ_SCHEMA}'
+  password: '${DQ_PASSWORD}'
+  label: '${DQ_LABEL}'

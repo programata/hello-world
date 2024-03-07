@@ -1,0 +1,84 @@
+version: 1
+disable_existing_loggers: False
+formatters:
+    simple:
+        format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    json_formatter:
+        format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+        class: pythonjsonlogger.jsonlogger.JsonFormatter
+
+handlers:
+    console:
+        class: logging.StreamHandler
+        level: DEBUG
+        formatter: simple
+        stream: ext://sys.stdout
+
+    info_file_handler:
+        class: logging.handlers.RotatingFileHandler
+        level: INFO
+        formatter: simple
+        filename: logs/info.log
+        maxBytes: 10485760 # 10MB
+        backupCount: 20
+        encoding: utf8
+        delay: True
+
+    error_file_handler:
+        class: logging.handlers.RotatingFileHandler
+        level: ERROR
+        formatter: simple
+        filename: logs/errors.log
+        maxBytes: 10485760 # 10MB
+        backupCount: 20
+        encoding: utf8
+        delay: True
+
+    journal_file_handler:
+        class: kedro.versioning.journal.JournalFileHandler
+        level: DEBUG
+        base_dir: logs/journals
+        formatter: json_formatter
+
+    bitacora_handler:
+        class: analyticsbk.framework.logging.BitacoraHandler
+        level: DEBUG
+        addr1: '10.0.210.46:1515'
+        addr2: '10.6.210.46:1515'
+        socktype: 2 # 1=TCP, 2=UDP
+        tag:  bigdata.${BITACORA_ENV}.modeloanalitico[${MACHINE_NAME}][test_project]
+
+loggers:
+    anyconfig:
+        level: DEBUG
+        handlers: [console, info_file_handler, error_file_handler, bitacora_handler]
+        propagate: no
+
+    kedro.io:
+        level: DEBUG
+        handlers: [console, info_file_handler, error_file_handler, bitacora_handler]
+        propagate: no
+
+    kedro.pipeline:
+        level: DEBUG
+        handlers: [console, info_file_handler, error_file_handler, bitacora_handler]
+        propagate: no
+
+    kedro.journal:
+        level: DEBUG
+        handlers: [journal_file_handler, bitacora_handler]
+        propagate: no
+
+    bitacora.prog:
+        level: DEBUG
+        handlers: [console, bitacora_handler]
+        propagate: no
+
+    logging_decor.prog:
+        level: DEBUG
+        handlers: [console, bitacora_handler]
+        propagate: no
+
+root:
+    level: INFO # Si se eleva a DEBUG los test de pytest dejan de funcionar.
+    handlers: [console, info_file_handler, error_file_handler, bitacora_handler]

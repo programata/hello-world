@@ -1,0 +1,13 @@
+{
+  "query": {
+    "folder": "/home/dataiku/workspace"
+  },
+  "lastVisited": {
+    "url": "/home/dataiku/workspace",
+    "workspace": false
+  },
+  "update": {
+    "checked": 1709726218175,
+    "version": "4.22.0"
+  }
+}
