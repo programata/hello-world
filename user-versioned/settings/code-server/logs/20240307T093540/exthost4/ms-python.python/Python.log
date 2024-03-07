@@ -1,0 +1,83 @@
+2024-03-07 11:26:42.281 [info] Test server listening.
+2024-03-07 11:26:42.281 [info] > conda info --json
+2024-03-07 11:26:42.281 [info] Python interpreter path: ~/dataiku-python-code-envs/py37-dss/bin/python
+2024-03-07 11:26:42.281 [info] Found: /bin/python2 --> /bin/python2.7
+2024-03-07 11:26:42.281 [info] Found: /bin/python2.7 --> /bin/python2.7
+2024-03-07 11:26:42.281 [info] Found: /bin/python3 --> /usr/libexec/platform-python3.6
+2024-03-07 11:26:42.281 [info] Found: /bin/python3.11 --> /bin/python3.11
+2024-03-07 11:26:42.281 [info] Found: /bin/python3.6 --> /usr/libexec/platform-python3.6
+2024-03-07 11:26:42.281 [info] Found: /bin/python3.8 --> /bin/python3.8
+2024-03-07 11:26:42.281 [info] Found: /bin/python3.9 --> /bin/python3.9
+2024-03-07 11:26:42.399 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2024-03-07 11:26:42.436 [info] > ~/template-python-code-envs/py38/bin/python -I ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2024-03-07 11:26:42.437 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2024-03-07 11:26:42.520 [info] Found: /usr/bin/python3 --> /usr/libexec/platform-python3.6
+2024-03-07 11:26:42.575 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2024-03-07 11:26:42.589 [info] Found: /usr/bin/python3.6 --> /usr/libexec/platform-python3.6
+2024-03-07 11:26:42.591 [info] Found: /usr/bin/python3.8 --> /usr/bin/python3.8
+2024-03-07 11:26:42.592 [info] Found: /usr/bin/python3.9 --> /usr/bin/python3.9
+2024-03-07 11:26:42.623 [info] > ~/dataiku-python-code-envs/bin/python -I ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2024-03-07 11:26:42.632 [info] Found: /usr/local/bin/python3.10 --> /usr/local/bin/python3.10
+2024-03-07 11:26:42.632 [info] Found: /usr/local/bin/python3.11 --> /usr/local/bin/python3.11
+2024-03-07 11:26:42.675 [info] Found: /usr/local/bin/python3.7 --> /usr/local/bin/python3.7
+2024-03-07 11:26:42.697 [info] > ~/dataiku-python-code-envs/py37-dss/bin/python -I ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2024-03-07 11:26:42.714 [info] > ~/dataiku-python-code-envs/pyenv/bin/python -I ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2024-03-07 11:26:42.795 [info] > /bin/python2 -I ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2024-03-07 11:26:42.807 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-07 11:26:42.808 [warning] [Error: Command failed: /bin/python2 -I /home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py /home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:402:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1100:16)
+	at Socket.<anonymous> (node:internal/child_process:458:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:301:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/bin/python2 -I /home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py /home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py'
+}
+2024-03-07 11:26:42.809 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-03-07 11:26:42.820 [info] > /bin/python2 ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2024-03-07 11:26:42.887 [info] > /bin/python3 -I ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2024-03-07 11:26:43.150 [info] > /bin/python3.11 -I ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2024-03-07 11:26:43.176 [info] > /bin/python3.8 -I ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2024-03-07 11:26:43.198 [info] > /bin/python3.9 -I ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2024-03-07 11:26:43.341 [info] > . ~/dataiku-python-code-envs/py37-dss/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/printEnvVariables.py
+2024-03-07 11:26:43.341 [info] shell: bash
+2024-03-07 11:26:43.357 [info] > /usr/bin/python2 -I ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2024-03-07 11:26:43.361 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-07 11:26:43.361 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-07 11:26:43.361 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-07 11:26:43.361 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-07 11:26:43.361 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-07 11:26:43.362 [warning] [Error: Command failed: /usr/bin/python2 -I /home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py /home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:402:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1100:16)
+	at Socket.<anonymous> (node:internal/child_process:458:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:301:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python2 -I /home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py /home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py'
+}
+2024-03-07 11:26:43.362 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-03-07 11:26:43.371 [info] > /usr/bin/python2 ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2024-03-07 11:26:43.429 [info] > /usr/bin/python3.11 -I ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2024-03-07 11:26:43.447 [info] > /usr/bin/python3.8 -I ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2024-03-07 11:26:43.493 [info] > /usr/bin/python3.9 -I ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2024-03-07 11:26:43.514 [info] > /usr/local/bin/python3.10 -I ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2024-03-07 11:26:43.584 [info] > /usr/local/bin/python3.11 -I ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2024-03-07 11:26:43.623 [info] > /usr/local/bin/python3.7 -I ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2024-03-07 11:26:44.180 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-07 11:26:44.180 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-07 11:26:46.106 [info] Starting Jedi language server for workspace.

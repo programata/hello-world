@@ -33,3 +33,168 @@ ModuleNotFoundError: No module named 'pytest'
 	at Socket.<anonymous> (node:internal/child_process:458:11)
 	at Socket.emit (node:events:513:28)
 	at Pipe.<anonymous> (node:net:301:12)
+2024-03-07 11:25:06.141 [error] Error: Traceback (most recent call last):
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/run_adapter.py", line 17, in <module>
+    from testing_tools.adapter.__main__ import parse_args, main
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/adapter/__main__.py", line 9, in <module>
+    from . import pytest, report
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/adapter/pytest/__init__.py", line 7, in <module>
+    from ._discovery import discover
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+	at ChildProcess.<anonymous> (/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/out/client/extension.js:2:241129)
+	at Object.onceWrapper (node:events:628:26)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1100:16)
+	at Socket.<anonymous> (node:internal/child_process:458:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:301:12)
+2024-03-07 11:26:37.864 [info] Extension host terminating: received terminate message from renderer
+2024-03-07 11:26:37.866 [info] Lock '/home/dataiku/workspace/user-versioned/settings/code-server/User/workspaceStorage/-760492f4/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-03-07 11:26:37.916 [error] Canceled: Canceled
+	at new l (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:104563)
+	at a.O (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:110:11657)
+	at Proxy.H.<computed>.V.charCodeAt.H.<computed> (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:110:8947)
+	at e.ExtHostCommands.g (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:124729)
+	at e.ExtHostCommands.executeCommand (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:124105)
+	at C.registerCommand.description (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:123398)
+	at e.ExtHostCommands.h (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:125315)
+	at e.ExtHostCommands.g (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:124205)
+	at e.ExtHostCommands.executeCommand (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:124105)
+	at Object.executeCommand (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:24043)
+	at D (/opt/dataiku/code-server/lib/vscode/extensions/git/dist/main.js:2:1259661)
+	at v.invoke (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:145)
+	at h.deliver (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2121)
+	at i.fire (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1729)
+	at Object.m [as dispose] (/opt/dataiku/code-server/lib/vscode/extensions/git/dist/main.js:2:1274494)
+	at /opt/dataiku/code-server/lib/vscode/extensions/git/dist/main.js:2:1278940
+	at Array.forEach (<anonymous>)
+	at g.dispose (/opt/dataiku/code-server/lib/vscode/extensions/git/dist/main.js:2:1278926)
+	at t.<anonymous> (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:96:12369)
+	at t.dispose (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:96:12504)
+	at t.<anonymous> (/opt/dataiku/code-server/lib/vscode/extensions/git/dist/main.js:2:1261791)
+	at t.dispose (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:96:12504)
+	at T (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:10:12080)
+	at h.Y (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:11173)
+	at /opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:9157
+	at Array.map (<anonymous>)
+	at h.R (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:9144)
+	at h.terminate (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:9415)
+	at d.terminate (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:1544)
+	at g (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:126:34552)
+	at /opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:126:32462
+	at v.invoke (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:145)
+	at h.deliver (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2121)
+	at i.fire (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1729)
+	at g.fire (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:14852)
+	at u.E (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:18899)
+	at /opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:16887
+	at v.invoke (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:145)
+	at h.deliver (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2121)
+	at i.fire (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1729)
+	at d.acceptChunk (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:12583)
+	at /opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:11870
+	at v.invoke (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:145)
+	at h.deliver (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2121)
+	at i.fire (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1729)
+	at D.u (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:126:20019) setContext undefined
+2024-03-07 11:26:37.916 [error] Canceled: Canceled
+	at new l (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:104563)
+	at a.O (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:110:11657)
+	at Proxy.H.<computed>.V.charCodeAt.H.<computed> (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:110:8947)
+	at e.ExtHostCommands.g (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:124729)
+	at e.ExtHostCommands.executeCommand (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:124105)
+	at C.registerCommand.description (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:123398)
+	at e.ExtHostCommands.h (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:125315)
+	at e.ExtHostCommands.g (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:124205)
+	at e.ExtHostCommands.executeCommand (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:124105)
+	at Object.executeCommand (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:24043)
+	at e (/home/dataiku/workspace/code_studio-resources/vscode-extensions/github.vscode-pull-request-github-0.64.0-universal/dist/extension.js:1680:1339)
+	at Object.n [as setContext] (/home/dataiku/workspace/code_studio-resources/vscode-extensions/github.vscode-pull-request-github-0.64.0-universal/dist/extension.js:1680:1454)
+	at Kc.updateActiveReviewCount (/home/dataiku/workspace/code_studio-resources/vscode-extensions/github.vscode-pull-request-github-0.64.0-universal/dist/extension.js:1793:22178)
+	at Kc.removeRepo (/home/dataiku/workspace/code_studio-resources/vscode-extensions/github.vscode-pull-request-github-0.64.0-universal/dist/extension.js:1793:23255)
+	at /home/dataiku/workspace/code_studio-resources/vscode-extensions/github.vscode-pull-request-github-0.64.0-universal/dist/extension.js:1839:4079
+	at v.invoke (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:145)
+	at h.deliver (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2121)
+	at i.fire (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1729)
+	at /home/dataiku/workspace/code_studio-resources/vscode-extensions/github.vscode-pull-request-github-0.64.0-universal/dist/extension.js:1649:461548
+	at v.invoke (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:145)
+	at h.deliver (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2121)
+	at i.fire (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1729)
+	at /home/dataiku/workspace/code_studio-resources/vscode-extensions/github.vscode-pull-request-github-0.64.0-universal/dist/extension.js:1793:26725
+	at /opt/dataiku/code-server/lib/vscode/extensions/git/dist/main.js:2:1346724
+	at v.invoke (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:145)
+	at h.deliver (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2121)
+	at i.fire (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1729)
+	at Object.m [as dispose] (/opt/dataiku/code-server/lib/vscode/extensions/git/dist/main.js:2:1274494)
+	at /opt/dataiku/code-server/lib/vscode/extensions/git/dist/main.js:2:1278940
+	at Array.forEach (<anonymous>)
+	at g.dispose (/opt/dataiku/code-server/lib/vscode/extensions/git/dist/main.js:2:1278926)
+	at t.<anonymous> (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:96:12369)
+	at t.dispose (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:96:12504)
+	at t.<anonymous> (/opt/dataiku/code-server/lib/vscode/extensions/git/dist/main.js:2:1261791)
+	at t.dispose (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:96:12504)
+	at T (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:10:12080)
+	at h.Y (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:11173)
+	at /opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:9157
+	at Array.map (<anonymous>)
+	at h.R (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:9144)
+	at h.terminate (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:9415)
+	at d.terminate (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:1544)
+	at g (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:126:34552)
+	at /opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:126:32462
+	at v.invoke (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:145)
+	at h.deliver (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2121)
+	at i.fire (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1729)
+	at g.fire (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:14852)
+	at u.E (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:18899)
+	at /opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:16887
+	at v.invoke (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:145)
+	at h.deliver (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2121)
+	at i.fire (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1729)
+	at d.acceptChunk (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:12583)
+	at /opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:11870
+	at v.invoke (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:145)
+	at h.deliver (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2121)
+	at i.fire (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1729)
+	at D.u (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:126:20019) setContext undefined
+2024-03-07 11:26:37.916 [error] Canceled: Canceled
+	at new l (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:104563)
+	at a.O (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:110:11657)
+	at Proxy.H.<computed>.V.charCodeAt.H.<computed> (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:110:8947)
+	at e.ExtHostCommands.g (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:124729)
+	at e.ExtHostCommands.executeCommand (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:124105)
+	at C.registerCommand.description (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:123398)
+	at e.ExtHostCommands.h (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:125315)
+	at e.ExtHostCommands.g (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:124205)
+	at e.ExtHostCommands.executeCommand (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:98:124105)
+	at Object.executeCommand (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:24043)
+	at Sg.reset (/home/dataiku/workspace/code_studio-resources/vscode-extensions/github.vscode-pull-request-github-0.64.0-universal/dist/extension.js:1826:2501)
+	at Sg.dispose (/home/dataiku/workspace/code_studio-resources/vscode-extensions/github.vscode-pull-request-github-0.64.0-universal/dist/extension.js:1826:2740)
+	at T (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:10:12080)
+	at h.Y (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:11173)
+	at /opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:9157
+	at Array.map (<anonymous>)
+	at h.R (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:9144)
+	at h.terminate (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:9415)
+	at d.terminate (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:1544)
+	at g (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:126:34552)
+	at /opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:126:32462
+	at v.invoke (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:145)
+	at h.deliver (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2121)
+	at i.fire (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1729)
+	at g.fire (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:14852)
+	at u.E (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:18899)
+	at /opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:16887
+	at v.invoke (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:145)
+	at h.deliver (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2121)
+	at i.fire (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1729)
+	at d.acceptChunk (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:12583)
+	at /opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:11870
+	at v.invoke (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:145)
+	at h.deliver (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2121)
+	at i.fire (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1729)
+	at D.u (/opt/dataiku/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:126:20019) setContext undefined
+2024-03-07 11:26:37.926 [info] Extension host with pid 18821 exiting with code 0

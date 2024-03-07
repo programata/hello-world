@@ -45,3 +45,18 @@
 2024-03-07 11:22:09.822 [info] [127.0.0.1][a3099dd4][ManagementConnection] New connection established.
 2024-03-07 11:22:10.730 [info] [127.0.0.1][08f68e9d][ExtensionHostConnection] New connection established.
 2024-03-07 11:22:10.785 [info] [127.0.0.1][08f68e9d][ExtensionHostConnection] <18821> Launched Extension Host Process.
+2024-03-07 11:26:35.240 [info] Uninstalling extension from the profile: github.vscode-pull-request-github@0.64.0 file:///home/dataiku/workspace/code_studio-resources/vscode-extensions/extensions.json
+2024-03-07 11:26:35.279 [info] Marked extension as uninstalled github.vscode-pull-request-github-0.64.0-universal
+2024-03-07 11:26:35.762 [info] Successfully uninstalled extension from the profile github.vscode-pull-request-github@0.64.0 file:///home/dataiku/workspace/code_studio-resources/vscode-extensions/extensions.json
+2024-03-07 11:26:37.865 [info] [127.0.0.1][a3099dd4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-07 11:26:37.987 [info] [127.0.0.1][08f68e9d][ExtensionHostConnection] <18821> Extension Host Process exited with code: 0, signal: null.
+2024-03-07 11:26:38.927 [info] [127.0.0.1][5bb8a926][ManagementConnection] New connection established.
+2024-03-07 11:26:39.693 [info] [127.0.0.1][85bfedec][ExtensionHostConnection] New connection established.
+2024-03-07 11:26:39.706 [info] [127.0.0.1][85bfedec][ExtensionHostConnection] <20013> Launched Extension Host Process.
+2024-03-07 11:28:09.138 [info] Getting Manifest... eamodio.gitlens
+2024-03-07 11:28:09.632 [info] Installing extension: eamodio.gitlens
+2024-03-07 11:28:11.072 [info] Extension signature verification is not done: eamodio.gitlens
+2024-03-07 11:28:11.505 [info] Extracted extension to /home/dataiku/workspace/code_studio-resources/vscode-extensions/.094ae190-c24c-4afb-a7ca-0d4156f5cafb: eamodio.gitlens
+2024-03-07 11:28:11.519 [info] Renamed to /home/dataiku/workspace/code_studio-resources/vscode-extensions/eamodio.gitlens-14.2.1-universal
+2024-03-07 11:28:11.525 [info] Extracting extension completed. eamodio.gitlens
+2024-03-07 11:28:11.529 [info] Extension installed successfully: eamodio.gitlens

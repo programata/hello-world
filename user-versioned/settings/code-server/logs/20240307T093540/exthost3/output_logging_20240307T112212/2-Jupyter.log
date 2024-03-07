@@ -10,3 +10,6 @@ info 11:22:14.817: Process Execution: > jupyter lab --version
 > jupyter lab --version
 info 11:22:16.205: Process Execution: > ~/dataiku-python-code-envs/py37-dss/bin/python -m pip list
 > ~/dataiku-python-code-envs/py37-dss/bin/python -m pip list
+info 11:26:37.901: Shutting down notebooks for da45cdb5-5c7e-415a-a392-573c89998a3b
+info 11:26:37.901: Disposing HostJupyterExecution e558ae5d-a004-4397-987c-333ee7a47fa0
+info 11:26:37.902: Disposing HostJupyterExecution e558ae5d-a004-4397-987c-333ee7a47fa0

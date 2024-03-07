@@ -105,3 +105,24 @@ ModuleNotFoundError: No module named 'pytest'
 	at Socket.<anonymous> (node:internal/child_process:458:11)
 	at Socket.emit (node:events:513:28)
 	at Pipe.<anonymous> (node:net:301:12)]
+2024-03-07 11:25:05.110 [info] > ~/dataiku-python-code-envs/py37-dss/bin/python ~/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir . -s --cache-clear project-lib-versioned
+2024-03-07 11:25:05.110 [info] cwd: .
+2024-03-07 11:25:05.139 [error] Error discovering pytest tests:
+ [n [Error]: Traceback (most recent call last):
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/run_adapter.py", line 17, in <module>
+    from testing_tools.adapter.__main__ import parse_args, main
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/adapter/__main__.py", line 9, in <module>
+    from . import pytest, report
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/adapter/pytest/__init__.py", line 7, in <module>
+    from ._discovery import discover
+  File "/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+	at ChildProcess.<anonymous> (/home/dataiku/.local/share/code-server/local-extensions/ms-python.python-2023.8.0-universal/out/client/extension.js:2:241129)
+	at Object.onceWrapper (node:events:628:26)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1100:16)
+	at Socket.<anonymous> (node:internal/child_process:458:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:301:12)]
