@@ -6,3 +6,6 @@ info 11:26:41.440: ZMQ loaded via fallback mechanism.
 info 11:26:41.794: LSP Notebooks experiment is enabled
 info 11:26:43.382: Process Execution: > ~/dataiku-python-code-envs/py37-dss/bin/python -m pip list
 > ~/dataiku-python-code-envs/py37-dss/bin/python -m pip list
+info 11:32:56.666: Shutting down notebooks for f053fc7d-111c-4ca4-a731-5cd1571d20ee
+info 11:32:56.667: Disposing HostJupyterExecution f807dae9-d931-42f8-b22d-860372bea3fd
+info 11:32:56.667: Disposing HostJupyterExecution f807dae9-d931-42f8-b22d-860372bea3fd

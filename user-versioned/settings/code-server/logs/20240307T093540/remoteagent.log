@@ -60,3 +60,18 @@
 2024-03-07 11:28:11.519 [info] Renamed to /home/dataiku/workspace/code_studio-resources/vscode-extensions/eamodio.gitlens-14.2.1-universal
 2024-03-07 11:28:11.525 [info] Extracting extension completed. eamodio.gitlens
 2024-03-07 11:28:11.529 [info] Extension installed successfully: eamodio.gitlens
+2024-03-07 11:32:54.538 [info] Uninstalling extension from the profile: eamodio.gitlens@14.2.1 file:///home/dataiku/workspace/code_studio-resources/vscode-extensions/extensions.json
+2024-03-07 11:32:54.585 [info] Marked extension as uninstalled eamodio.gitlens-14.2.1-universal
+2024-03-07 11:32:54.862 [info] Successfully uninstalled extension from the profile eamodio.gitlens@14.2.1 file:///home/dataiku/workspace/code_studio-resources/vscode-extensions/extensions.json
+2024-03-07 11:32:56.639 [info] [127.0.0.1][5bb8a926][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-07 11:32:56.702 [info] [127.0.0.1][85bfedec][ExtensionHostConnection] <20013> Extension Host Process exited with code: 0, signal: null.
+2024-03-07 11:32:58.035 [info] [127.0.0.1][2c85c406][ManagementConnection] New connection established.
+2024-03-07 11:32:58.812 [info] [127.0.0.1][0d55b18b][ExtensionHostConnection] New connection established.
+2024-03-07 11:32:58.828 [info] [127.0.0.1][0d55b18b][ExtensionHostConnection] <21585> Launched Extension Host Process.
+2024-03-07 11:33:41.858 [info] Getting Manifest... solomonkinard.git-blame
+2024-03-07 11:33:42.246 [info] Installing extension: solomonkinard.git-blame
+2024-03-07 11:33:43.327 [info] Extension signature verification is not done: solomonkinard.git-blame
+2024-03-07 11:33:43.337 [info] Extracted extension to /home/dataiku/workspace/code_studio-resources/vscode-extensions/.da04d1ec-0eec-4781-9456-d90b4c106f84: solomonkinard.git-blame
+2024-03-07 11:33:43.340 [info] Renamed to /home/dataiku/workspace/code_studio-resources/vscode-extensions/solomonkinard.git-blame-0.2.11-universal
+2024-03-07 11:33:43.341 [info] Extracting extension completed. solomonkinard.git-blame
+2024-03-07 11:33:43.345 [info] Extension installed successfully: solomonkinard.git-blame
