@@ -1,4 +1,5 @@
 **/logs
 user-versioned
 code_studio-resources/vscode-extensions
-**/metastore_db
+**/metastore_db/*
+**/__pycache__/
